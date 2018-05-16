@@ -5,6 +5,7 @@ function init(e) {
   const key = parseInt(e.detail || e.which)
   if (key === code[index]) {
     index++
+    debugger
     if (index === code.length) {
       alert("Congratulations!")
       index = 0
