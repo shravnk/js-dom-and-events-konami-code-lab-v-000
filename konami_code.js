@@ -15,5 +15,3 @@ function init(e) {
 }
 const body = document.getElementById('body')
 body.addEventListener('keydown', init)
-
-
