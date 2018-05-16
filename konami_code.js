@@ -8,8 +8,8 @@ document.addEventListener('keydown', function (e) {
   debugger
   if (key === code[index]) {
     index++
-    
-    if (index === code.length) {
+
+    if (index === code.length - 1) {
       alert("Congratulations!")
       index = 0
     }
