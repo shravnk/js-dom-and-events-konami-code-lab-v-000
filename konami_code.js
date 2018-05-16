@@ -14,5 +14,5 @@ function init(e) {
     index = 0
   }
 }
-const body = document.getElementById('body')
-body.addEventListener('keydown', init)
+// const body = document.getElementById('body')
+document.addEventListener('keydown', init)
